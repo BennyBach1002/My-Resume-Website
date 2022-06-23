@@ -215,7 +215,7 @@ body{
 
 .skills :nth-child(2):hover #HTML{
   left: 110px;
-  transition: 3s;
+  transition: 1s;
 }
 
 
@@ -236,7 +236,7 @@ body{
 }
 
 .skills :nth-child(3):hover #CSS{
-  transition: 3s;
+  transition: 1s;
   bottom: 100px;
 }
 
@@ -260,7 +260,7 @@ body{
 
 .skills :nth-child(4):hover #JS{
   bottom: 100px;
-  transition: 3s;
+  transition: 1s;
 
 }
 
@@ -283,7 +283,7 @@ body{
 
 .skills :nth-child(5):hover #REACT{
   right: 100px;
-  transition: 3s;
+  transition: 1s;
 }
 
 .skills #REACT{ 

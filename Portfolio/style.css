@@ -13,6 +13,14 @@ body{
     margin: 0;
 
 }
+/* On/off Music */
+.audio-button{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
 /* Beating Diamond */
 .first-page .lds-heart {
     display: inline-block;
@@ -394,6 +402,13 @@ body{
   margin-left: auto;
   width: 90%;
   text-align: left;
+  transition: 1s;
+}
+
+.Experience :nth-child(2):hover{
+  color: grey;
+  transition: 2s;
+  right:  100px;
 }
 
 .Experience :nth-child(3){
@@ -402,6 +417,13 @@ body{
   margin-left: auto;
   width: 85%;
   text-align: left;
+  transition: 1s;
+}
+
+.Experience :nth-child(3):hover{
+  color: grey;
+  transition: 2s;
+  right:  10%;
 }
 
 .Experience :nth-child(4){
@@ -410,15 +432,27 @@ body{
   margin-left: auto;
   width: 80%;
   text-align: left;
+  transition: 1s;
+}
+.Experience :nth-child(4):hover{
+  color: grey;
+  transition: 2s;
+  right:  10%;
 }
 
-.Experience :nth-child(5){
+/* .Experience :nth-child(5){
   background-color:;
   position: relative;
   margin-left: auto;
   width: 75%;
   text-align: left;
+  transition: 1s;
 }
+.Experience :nth-child(5):hover{
+  color: var(--mustard);
+  transition: 2s;
+  right:  10%;
+} */
 
 /* Contact me */
 

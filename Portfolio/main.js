@@ -12,11 +12,23 @@ submitbtn.addEventListener('click',onSubmit)
 
 function onSubmit(e) {
     e.preventDefault();
-    
-    if(nameInput == "" || emailInput == ""){
-        console.log('Please fill name and email ');
-    }else{
+    window.alert('Thanks for submiting')
+}
 
-        console.log(nameInput.value + emailInput)
-    } 
+
+const mySong = document.getElementById("mySong");
+const onIcon = document.getElementById("on-icon")
+const offnIcon = document.getElementById("off -icon")
+
+
+onIcon.addEventListener('click',playMusic)
+window. onload = playMusic
+function playMusic(){
+    if(mySong.paused){
+        mySong.play();
+        document.getElementById("on-icon").src="./sound.png";
+    }else{
+        mySong.pause();
+        document.getElementById("on-icon").src="./mute.png";
+    }
 }
